@@ -1,0 +1,50 @@
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url(img/pykefond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1{
+    padding-top: 90px;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    text-align: center;
+}
+
+.flex-container div{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.flex-container2{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
